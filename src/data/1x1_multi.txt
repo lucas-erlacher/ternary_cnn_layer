@@ -1,0 +1,287 @@
+Number of registered functions: 3
+
+Input size = 200
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:       257999 ns
+img2row:           504 ns
+gemm:            24396 ns
+prelu:           32632 ns
+-----------------------------
+Total:          315531 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:           81404 ns
+-----------------------------
+Total:           81404 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:          106205 ns
+-----------------------------
+Total:          106205 ns
+
+Input size = 500
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:      1525273 ns
+img2row:           689 ns
+gemm:           129566 ns
+prelu:           81433 ns
+-----------------------------
+Total:         1736961 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:          260589 ns
+-----------------------------
+Total:          260589 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:          372193 ns
+-----------------------------
+Total:          372193 ns
+
+Input size = 1000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:      6036470 ns
+img2row:           882 ns
+gemm:           558625 ns
+prelu:          164081 ns
+-----------------------------
+Total:         6760058 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:          814573 ns
+-----------------------------
+Total:          814573 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:         1008749 ns
+-----------------------------
+Total:         1008749 ns
+
+Input size = 2000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:     23217130 ns
+img2row:          1136 ns
+gemm:          1703759 ns
+prelu:          321922 ns
+-----------------------------
+Total:        25243947 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:         3323350 ns
+-----------------------------
+Total:         3323350 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:         4031501 ns
+-----------------------------
+Total:         4031501 ns
+
+Input size = 3000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:     51744180 ns
+img2row:          1830 ns
+gemm:          3743493 ns
+prelu:          483328 ns
+-----------------------------
+Total:        55972831 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:         6494693 ns
+-----------------------------
+Total:         6494693 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:         8551925 ns
+-----------------------------
+Total:         8551925 ns
+
+Input size = 5000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:    143259874 ns
+img2row:          4381 ns
+gemm:         12798513 ns
+prelu:          819956 ns
+-----------------------------
+Total:       156882724 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:        18698229 ns
+-----------------------------
+Total:        18698229 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:        22755992 ns
+-----------------------------
+Total:        22755992 ns
+
+Input size = 10000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:    574501545 ns
+img2row:          7516 ns
+gemm:         64401970 ns
+prelu:         1631934 ns
+-----------------------------
+Total:       640542965 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:        69147824 ns
+-----------------------------
+Total:        69147824 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:        67241930 ns
+-----------------------------
+Total:        67241930 ns
+
+Input size = 20000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:   2301330393 ns
+img2row:         13058 ns
+gemm:        254769123 ns
+prelu:         3259872 ns
+-----------------------------
+Total:      2559372446 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:       270356358 ns
+-----------------------------
+Total:       270356358 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:       254697120 ns
+-----------------------------
+Total:       254697120 ns
+
+Input size = 30000
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:   5177857787 ns
+img2row:         18490 ns
+gemm:        572468994 ns
+prelu:         4892263 ns
+-----------------------------
+Total:      5755237534 ns
+
+Running: Specialized 1x1 v1
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:       611586618 ns
+-----------------------------
+Total:       611586618 ns
+
+Running: Specialized 1x1 v2
+Runs per experiment: 1 (static)
+quantize:            0 ns
+img2row:             0 ns
+gemm:                0 ns
+prelu:       571594178 ns
+-----------------------------
+Total:       571594178 ns
+
+[----- Data Summary -----]
+inputs: [200, 500, 1000, 2000, 3000, 5000, 10000, 20000, 30000]
+
+Baseline:
+quantize: [257999, 1525273, 6036470, 23217130, 51744180, 143259874, 574501545, 2301330393, 5177857787]
+img2row: [504, 689, 882, 1136, 1830, 4381, 7516, 13058, 18490]
+gemm: [24396, 129566, 558625, 1703759, 3743493, 12798513, 64401970, 254769123, 572468994]
+prelu: [32632, 81433, 164081, 321922, 483328, 819956, 1631934, 3259872, 4892263]
+total: [315531, 1736961, 6760058, 25243947, 55972831, 156882724, 640542965, 2559372446, 5755237534]
+
+Specialized 1x1 v1:
+quantize: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+img2row: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+gemm: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+prelu: [81404, 260589, 814573, 3323350, 6494693, 18698229, 69147824, 270356358, 611586618]
+total: [81404, 260589, 814573, 3323350, 6494693, 18698229, 69147824, 270356358, 611586618]
+
+Specialized 1x1 v2:
+quantize: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+img2row: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+gemm: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+prelu: [106205, 372193, 1008749, 4031501, 8551925, 22755992, 67241930, 254697120, 571594178]
+total: [106205, 372193, 1008749, 4031501, 8551925, 22755992, 67241930, 254697120, 571594178]
+[------------------------]

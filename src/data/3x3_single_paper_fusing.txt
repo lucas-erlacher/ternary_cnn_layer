@@ -1,0 +1,375 @@
+Number of registered functions: 4
+
+Input size = 16
+
+Running: Baseline
+Runs per experiment: 2002 (warmup)
+quantize:       144639 ns
+img2row:          7088 ns
+gemm:            32705 ns
+prelu:           14839 ns
+-----------------------------
+Total:          199271 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 2012 (warmup)
+quantize:        50306 ns
+img2row:        113760 ns
+gemm:            32644 ns
+prelu:           16251 ns
+-----------------------------
+Total:          212961 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 3213 (warmup)
+quantize:        47716 ns
+img2row:         36381 ns
+gemm:            32765 ns
+prelu:           15849 ns
+-----------------------------
+Total:          132711 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 3278 (warmup)
+quantize:        47963 ns
+img2row:         35940 ns
+gemm:            32635 ns
+prelu:           14231 ns
+-----------------------------
+Total:          130769 ns
+
+Input size = 28
+
+Running: Baseline
+Runs per experiment: 815 (warmup)
+quantize:       336250 ns
+img2row:         23650 ns
+gemm:            99530 ns
+prelu:           43806 ns
+-----------------------------
+Total:          503236 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 736 (warmup)
+quantize:        51622 ns
+img2row:        346554 ns
+gemm:            99481 ns
+prelu:           48952 ns
+-----------------------------
+Total:          546609 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 1333 (warmup)
+quantize:        49809 ns
+img2row:         94661 ns
+gemm:            99340 ns
+prelu:           49767 ns
+-----------------------------
+Total:          293577 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 1422 (warmup)
+quantize:        50050 ns
+img2row:         94399 ns
+gemm:            99674 ns
+prelu:           44194 ns
+-----------------------------
+Total:          288317 ns
+
+Input size = 56
+
+Running: Baseline
+Runs per experiment: 227 (warmup)
+quantize:      1223563 ns
+img2row:         99085 ns
+gemm:           397980 ns
+prelu:          169040 ns
+-----------------------------
+Total:         1889668 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 204 (warmup)
+quantize:        52679 ns
+img2row:       1414643 ns
+gemm:           397937 ns
+prelu:          191053 ns
+-----------------------------
+Total:         2056312 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 393 (warmup)
+quantize:        50221 ns
+img2row:        393691 ns
+gemm:           398258 ns
+prelu:          195221 ns
+-----------------------------
+Total:         1037391 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 398 (warmup)
+quantize:        50558 ns
+img2row:        396240 ns
+gemm:           397979 ns
+prelu:          173575 ns
+-----------------------------
+Total:         1018352 ns
+
+Input size = 112
+
+Running: Baseline
+Runs per experiment: 57 (warmup)
+quantize:      4762492 ns
+img2row:        362168 ns
+gemm:          1592154 ns
+prelu:          663441 ns
+-----------------------------
+Total:         7380255 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 51 (warmup)
+quantize:        53238 ns
+img2row:       5689076 ns
+gemm:          1592741 ns
+prelu:          754319 ns
+-----------------------------
+Total:         8089374 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 99 (warmup)
+quantize:        50935 ns
+img2row:       1770261 ns
+gemm:          1596273 ns
+prelu:          771919 ns
+-----------------------------
+Total:         4189388 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 101 (warmup)
+quantize:        51412 ns
+img2row:       1780055 ns
+gemm:          1591903 ns
+prelu:          681657 ns
+-----------------------------
+Total:         4105027 ns
+
+Input size = 256
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:     31637783 ns
+img2row:       1941885 ns
+gemm:          8455410 ns
+prelu:         3517628 ns
+-----------------------------
+Total:        45552706 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        54620 ns
+img2row:      35801837 ns
+gemm:          8520106 ns
+prelu:         3979935 ns
+-----------------------------
+Total:        48356498 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 15 (warmup)
+quantize:        53114 ns
+img2row:      13645314 ns
+gemm:          8552257 ns
+prelu:         4103798 ns
+-----------------------------
+Total:        26354483 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 16 (warmup)
+quantize:        53411 ns
+img2row:      13775242 ns
+gemm:          8560726 ns
+prelu:         3628079 ns
+-----------------------------
+Total:        26017458 ns
+
+Input size = 386
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:     58654002 ns
+img2row:       4890711 ns
+gemm:         19485398 ns
+prelu:         7981479 ns
+-----------------------------
+Total:        91011590 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        56211 ns
+img2row:      72273786 ns
+gemm:         19525611 ns
+prelu:         9024541 ns
+-----------------------------
+Total:       100880149 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        54234 ns
+img2row:      23873109 ns
+gemm:         19372907 ns
+prelu:         9258002 ns
+-----------------------------
+Total:        52558252 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        54277 ns
+img2row:      24004670 ns
+gemm:         19528528 ns
+prelu:         8234084 ns
+-----------------------------
+Total:        51821559 ns
+
+Input size = 512
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:    128566939 ns
+img2row:      16356467 ns
+gemm:         34615153 ns
+prelu:        14042204 ns
+-----------------------------
+Total:       193580763 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        59636 ns
+img2row:     153635020 ns
+gemm:         34470817 ns
+prelu:        15834267 ns
+-----------------------------
+Total:       203999740 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        56019 ns
+img2row:      63217240 ns
+gemm:         34494388 ns
+prelu:        16295177 ns
+-----------------------------
+Total:       114062824 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        60213 ns
+img2row:      63664996 ns
+gemm:         34527626 ns
+prelu:        14481685 ns
+-----------------------------
+Total:       112734520 ns
+
+Input size = 750
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:    239287592 ns
+img2row:      34929059 ns
+gemm:         74753177 ns
+prelu:        30145119 ns
+-----------------------------
+Total:       379114947 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        57760 ns
+img2row:     302471834 ns
+gemm:         74151551 ns
+prelu:        33985794 ns
+-----------------------------
+Total:       410666939 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        55790 ns
+img2row:     112324069 ns
+gemm:         74529811 ns
+prelu:        34996278 ns
+-----------------------------
+Total:       221905948 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        57563 ns
+img2row:     113863170 ns
+gemm:         74885247 ns
+prelu:        31116957 ns
+-----------------------------
+Total:       219922937 ns
+
+Input size = 1024
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:    532124337 ns
+img2row:      65011081 ns
+gemm:        138972042 ns
+prelu:        56225728 ns
+-----------------------------
+Total:       792333188 ns
+
+Running: Paper Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        56583 ns
+img2row:     631789561 ns
+gemm:        139102360 ns
+prelu:        63448681 ns
+-----------------------------
+Total:       834397185 ns
+
+Running: Paper Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        56349 ns
+img2row:     266984252 ns
+gemm:        138632698 ns
+prelu:        65243949 ns
+-----------------------------
+Total:       470917248 ns
+
+Running: Paper Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        57662 ns
+img2row:     267357963 ns
+gemm:        140143283 ns
+prelu:        57885309 ns
+-----------------------------
+Total:       465444217 ns
+
+[----- Data Summary -----]
+inputs: [16, 28, 56, 112, 256, 386, 512, 750, 1024]
+
+Baseline:
+quantize: [144639, 336250, 1223563, 4762492, 31637783, 58654002, 128566939, 239287592, 532124337]
+img2row: [7088, 23650, 99085, 362168, 1941885, 4890711, 16356467, 34929059, 65011081]
+gemm: [32705, 99530, 397980, 1592154, 8455410, 19485398, 34615153, 74753177, 138972042]
+prelu: [14839, 43806, 169040, 663441, 3517628, 7981479, 14042204, 30145119, 56225728]
+total: [199271, 503236, 1889668, 7380255, 45552706, 91011590, 193580763, 379114947, 792333188]
+
+Paper Fusing 1:
+quantize: [50306, 51622, 52679, 53238, 54620, 56211, 59636, 57760, 56583]
+img2row: [113760, 346554, 1414643, 5689076, 35801837, 72273786, 153635020, 302471834, 631789561]
+gemm: [32644, 99481, 397937, 1592741, 8520106, 19525611, 34470817, 74151551, 139102360]
+prelu: [16251, 48952, 191053, 754319, 3979935, 9024541, 15834267, 33985794, 63448681]
+total: [212961, 546609, 2056312, 8089374, 48356498, 100880149, 203999740, 410666939, 834397185]
+
+Paper Fusing 2:
+quantize: [47716, 49809, 50221, 50935, 53114, 54234, 56019, 55790, 56349]
+img2row: [36381, 94661, 393691, 1770261, 13645314, 23873109, 63217240, 112324069, 266984252]
+gemm: [32765, 99340, 398258, 1596273, 8552257, 19372907, 34494388, 74529811, 138632698]
+prelu: [15849, 49767, 195221, 771919, 4103798, 9258002, 16295177, 34996278, 65243949]
+total: [132711, 293577, 1037391, 4189388, 26354483, 52558252, 114062824, 221905948, 470917248]
+
+Paper Fusing 3:
+quantize: [47963, 50050, 50558, 51412, 53411, 54277, 60213, 57563, 57662]
+img2row: [35940, 94399, 396240, 1780055, 13775242, 24004670, 63664996, 113863170, 267357963]
+gemm: [32635, 99674, 397979, 1591903, 8560726, 19528528, 34527626, 74885247, 140143283]
+prelu: [14231, 44194, 173575, 681657, 3628079, 8234084, 14481685, 31116957, 57885309]
+total: [130769, 288317, 1018352, 4105027, 26017458, 51821559, 112734520, 219922937, 465444217]
+[------------------------]

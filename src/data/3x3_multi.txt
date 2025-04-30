@@ -1,0 +1,337 @@
+Number of registered functions: 4
+
+Input size = 16
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:       280462 ns
+img2row:          6762 ns
+gemm:           124086 ns
+prelu:           60257 ns
+-----------------------------
+Total:          471567 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       191684 ns
+img2row:        113932 ns
+gemm:           125497 ns
+prelu:           61138 ns
+-----------------------------
+Total:          492251 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        13241 ns
+img2row:         36823 ns
+gemm:           124082 ns
+prelu:           64354 ns
+-----------------------------
+Total:          238500 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        13962 ns
+img2row:         37032 ns
+gemm:           123935 ns
+prelu:           59309 ns
+-----------------------------
+Total:          234238 ns
+
+Input size = 28
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:       455357 ns
+img2row:         20143 ns
+gemm:           384208 ns
+prelu:          174408 ns
+-----------------------------
+Total:         1034116 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       194105 ns
+img2row:        351982 ns
+gemm:           383722 ns
+prelu:          179044 ns
+-----------------------------
+Total:         1108853 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        13634 ns
+img2row:         94190 ns
+gemm:           379969 ns
+prelu:          193201 ns
+-----------------------------
+Total:          680994 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        13588 ns
+img2row:         98243 ns
+gemm:           380002 ns
+prelu:          176733 ns
+-----------------------------
+Total:          668566 ns
+
+Input size = 56
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:      1269933 ns
+img2row:         85746 ns
+gemm:          1522579 ns
+prelu:          672254 ns
+-----------------------------
+Total:         3550512 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       194176 ns
+img2row:       1413128 ns
+gemm:          1524789 ns
+prelu:          690528 ns
+-----------------------------
+Total:         3822621 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        13706 ns
+img2row:        390463 ns
+gemm:          1524244 ns
+prelu:          755611 ns
+-----------------------------
+Total:         2684024 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        13683 ns
+img2row:        400331 ns
+gemm:          1522725 ns
+prelu:          688431 ns
+-----------------------------
+Total:         2625170 ns
+
+Input size = 112
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:      4550688 ns
+img2row:        329566 ns
+gemm:          6093743 ns
+prelu:         2663662 ns
+-----------------------------
+Total:        13637659 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       198466 ns
+img2row:       5683383 ns
+gemm:          6096606 ns
+prelu:         2748527 ns
+-----------------------------
+Total:        14726982 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        24586 ns
+img2row:       1814833 ns
+gemm:          6162989 ns
+prelu:         3002669 ns
+-----------------------------
+Total:        11005077 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        25350 ns
+img2row:       1875195 ns
+gemm:          6099202 ns
+prelu:         2731797 ns
+-----------------------------
+Total:        10731544 ns
+
+Input size = 256
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:     28878747 ns
+img2row:       1842267 ns
+gemm:         31952488 ns
+prelu:        14062568 ns
+-----------------------------
+Total:        76736070 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       200323 ns
+img2row:      35272577 ns
+gemm:         32039345 ns
+prelu:        14495433 ns
+-----------------------------
+Total:        82007678 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        27909 ns
+img2row:      12961614 ns
+gemm:         32048286 ns
+prelu:        15844145 ns
+-----------------------------
+Total:        60881954 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        28535 ns
+img2row:      13194944 ns
+gemm:         32066722 ns
+prelu:        14445632 ns
+-----------------------------
+Total:        59735833 ns
+
+Input size = 386
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:     54415060 ns
+img2row:       4650322 ns
+gemm:         72832862 ns
+prelu:        31894962 ns
+-----------------------------
+Total:       163793206 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       199463 ns
+img2row:      72246017 ns
+gemm:         72793691 ns
+prelu:        32870453 ns
+-----------------------------
+Total:       178109624 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        28596 ns
+img2row:      23829430 ns
+gemm:         72800429 ns
+prelu:        35926105 ns
+-----------------------------
+Total:       132584560 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        28227 ns
+img2row:      24231836 ns
+gemm:         72798544 ns
+prelu:        32776051 ns
+-----------------------------
+Total:       129834658 ns
+
+Input size = 512
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:    115077327 ns
+img2row:      16168491 ns
+gemm:        128226831 ns
+prelu:        56078414 ns
+-----------------------------
+Total:       315551063 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       199808 ns
+img2row:     148576592 ns
+gemm:        128230052 ns
+prelu:        57846147 ns
+-----------------------------
+Total:       334852599 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        28927 ns
+img2row:      60761377 ns
+gemm:        128259609 ns
+prelu:        63208473 ns
+-----------------------------
+Total:       252258386 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        28837 ns
+img2row:      61667664 ns
+gemm:        128285680 ns
+prelu:        57644201 ns
+-----------------------------
+Total:       247626382 ns
+
+Input size = 600
+
+Running: Baseline
+Runs per experiment: 1 (static)
+quantize:    131887809 ns
+img2row:      22139222 ns
+gemm:        176158234 ns
+prelu:        76995808 ns
+-----------------------------
+Total:       407181073 ns
+
+Running: Fused Code 1
+Runs per experiment: 1 (static)
+quantize:       200124 ns
+img2row:     181505415 ns
+gemm:        176098677 ns
+prelu:        79322106 ns
+-----------------------------
+Total:       437126322 ns
+
+Running: Fused Code 2
+Runs per experiment: 1 (static)
+quantize:        28650 ns
+img2row:      72208566 ns
+gemm:        176090151 ns
+prelu:        86618542 ns
+-----------------------------
+Total:       334945909 ns
+
+Running: Fused Code 3
+Runs per experiment: 1 (static)
+quantize:        28339 ns
+img2row:      73318144 ns
+gemm:        176067293 ns
+prelu:        79105005 ns
+-----------------------------
+Total:       328518781 ns
+
+[----- Data Summary -----]
+inputs: [16, 28, 56, 112, 256, 386, 512, 600]
+
+Baseline:
+quantize: [280462, 455357, 1269933, 4550688, 28878747, 54415060, 115077327, 131887809]
+img2row: [6762, 20143, 85746, 329566, 1842267, 4650322, 16168491, 22139222]
+gemm: [124086, 384208, 1522579, 6093743, 31952488, 72832862, 128226831, 176158234]
+prelu: [60257, 174408, 672254, 2663662, 14062568, 31894962, 56078414, 76995808]
+total: [471567, 1034116, 3550512, 13637659, 76736070, 163793206, 315551063, 407181073]
+
+Fused Code 1:
+quantize: [191684, 194105, 194176, 198466, 200323, 199463, 199808, 200124]
+img2row: [113932, 351982, 1413128, 5683383, 35272577, 72246017, 148576592, 181505415]
+gemm: [125497, 383722, 1524789, 6096606, 32039345, 72793691, 128230052, 176098677]
+prelu: [61138, 179044, 690528, 2748527, 14495433, 32870453, 57846147, 79322106]
+total: [492251, 1108853, 3822621, 14726982, 82007678, 178109624, 334852599, 437126322]
+
+Fused Code 2:
+quantize: [13241, 13634, 13706, 24586, 27909, 28596, 28927, 28650]
+img2row: [36823, 94190, 390463, 1814833, 12961614, 23829430, 60761377, 72208566]
+gemm: [124082, 379969, 1524244, 6162989, 32048286, 72800429, 128259609, 176090151]
+prelu: [64354, 193201, 755611, 3002669, 15844145, 35926105, 63208473, 86618542]
+total: [238500, 680994, 2684024, 11005077, 60881954, 132584560, 252258386, 334945909]
+
+Fused Code 3:
+quantize: [13962, 13588, 13683, 25350, 28535, 28227, 28837, 28339]
+img2row: [37032, 98243, 400331, 1875195, 13194944, 24231836, 61667664, 73318144]
+gemm: [123935, 380002, 1522725, 6099202, 32066722, 72798544, 128285680, 176067293]
+prelu: [59309, 176733, 688431, 2731797, 14445632, 32776051, 57644201, 79105005]
+total: [234238, 668566, 2625170, 10731544, 59735833, 129834658, 247626382, 328518781]
+[------------------------]

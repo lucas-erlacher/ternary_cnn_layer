@@ -1,0 +1,375 @@
+Number of registered functions: 4
+
+Input size = 16
+
+Running: Baseline
+Runs per experiment: 2031 (warmup)
+quantize:       144430 ns
+img2row:          7093 ns
+gemm:            33044 ns
+prelu:           14720 ns
+-----------------------------
+Total:          199287 ns
+
+Running: Our Fusing 1
+Runs per experiment: 413 (warmup)
+quantize:        52896 ns
+img2row:        948649 ns
+gemm:            33337 ns
+prelu:           17591 ns
+-----------------------------
+Total:         1052473 ns
+
+Running: Our Fusing 2
+Runs per experiment: 1507 (warmup)
+quantize:        49111 ns
+img2row:        190175 ns
+gemm:            32632 ns
+prelu:           15183 ns
+-----------------------------
+Total:          287101 ns
+
+Running: Our Fusing 3
+Runs per experiment: 2294 (warmup)
+quantize:        47765 ns
+img2row:         91366 ns
+gemm:            32725 ns
+prelu:           16389 ns
+-----------------------------
+Total:          188245 ns
+
+Input size = 28
+
+Running: Baseline
+Runs per experiment: 812 (warmup)
+quantize:       335944 ns
+img2row:         21374 ns
+gemm:           100247 ns
+prelu:           44332 ns
+-----------------------------
+Total:          501897 ns
+
+Running: Our Fusing 1
+Runs per experiment: 125 (warmup)
+quantize:        53183 ns
+img2row:       3383353 ns
+gemm:           101524 ns
+prelu:           51174 ns
+-----------------------------
+Total:         3589234 ns
+
+Running: Our Fusing 2
+Runs per experiment: 834 (warmup)
+quantize:        50348 ns
+img2row:        299761 ns
+gemm:            98976 ns
+prelu:           48501 ns
+-----------------------------
+Total:          497586 ns
+
+Running: Our Fusing 3
+Runs per experiment: 1221 (warmup)
+quantize:        49853 ns
+img2row:        136716 ns
+gemm:            99672 ns
+prelu:           50422 ns
+-----------------------------
+Total:          336663 ns
+
+Input size = 56
+
+Running: Baseline
+Runs per experiment: 227 (warmup)
+quantize:      1226223 ns
+img2row:        104133 ns
+gemm:           396039 ns
+prelu:          171101 ns
+-----------------------------
+Total:         1897496 ns
+
+Running: Our Fusing 1
+Runs per experiment: 28 (warmup)
+quantize:        53136 ns
+img2row:      15211306 ns
+gemm:           399550 ns
+prelu:          197291 ns
+-----------------------------
+Total:        15861283 ns
+
+Running: Our Fusing 2
+Runs per experiment: 207 (warmup)
+quantize:        50649 ns
+img2row:       1394128 ns
+gemm:           395658 ns
+prelu:          190888 ns
+-----------------------------
+Total:         2031323 ns
+
+Running: Our Fusing 3
+Runs per experiment: 316 (warmup)
+quantize:        49711 ns
+img2row:        613113 ns
+gemm:           400272 ns
+prelu:          195850 ns
+-----------------------------
+Total:         1258946 ns
+
+Input size = 112
+
+Running: Baseline
+Runs per experiment: 56 (warmup)
+quantize:      4794783 ns
+img2row:        358062 ns
+gemm:          1589119 ns
+prelu:          674407 ns
+-----------------------------
+Total:         7416371 ns
+
+Running: Our Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        54083 ns
+img2row:      61573638 ns
+gemm:          1600030 ns
+prelu:          780032 ns
+-----------------------------
+Total:        64007783 ns
+
+Running: Our Fusing 2
+Runs per experiment: 37 (warmup)
+quantize:        51704 ns
+img2row:       9146101 ns
+gemm:          1590920 ns
+prelu:          751994 ns
+-----------------------------
+Total:        11540719 ns
+
+Running: Our Fusing 3
+Runs per experiment: 62 (warmup)
+quantize:        50397 ns
+img2row:       4318687 ns
+gemm:          1595636 ns
+prelu:          773406 ns
+-----------------------------
+Total:         6738126 ns
+
+Input size = 256
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:     32610556 ns
+img2row:       1950090 ns
+gemm:          8463613 ns
+prelu:         3587598 ns
+-----------------------------
+Total:        46611857 ns
+
+Running: Our Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        54696 ns
+img2row:     405165032 ns
+gemm:          8538079 ns
+prelu:         4129630 ns
+-----------------------------
+Total:       417887437 ns
+
+Running: Our Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        52885 ns
+img2row:      97882308 ns
+gemm:          8525504 ns
+prelu:         3968759 ns
+-----------------------------
+Total:       110429456 ns
+
+Running: Our Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        52921 ns
+img2row:      49058998 ns
+gemm:          8543652 ns
+prelu:         4085220 ns
+-----------------------------
+Total:        61740791 ns
+
+Input size = 386
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:     58653508 ns
+img2row:       4869397 ns
+gemm:         19426708 ns
+prelu:         8094318 ns
+-----------------------------
+Total:        91043931 ns
+
+Running: Our Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        55679 ns
+img2row:     748308608 ns
+gemm:         19454089 ns
+prelu:         9359453 ns
+-----------------------------
+Total:       777177829 ns
+
+Running: Our Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        54029 ns
+img2row:      74116007 ns
+gemm:         19557593 ns
+prelu:         9004801 ns
+-----------------------------
+Total:       102732430 ns
+
+Running: Our Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        53921 ns
+img2row:      37339312 ns
+gemm:         19635937 ns
+prelu:         9261462 ns
+-----------------------------
+Total:        66290632 ns
+
+Input size = 512
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:    129623794 ns
+img2row:      16324390 ns
+gemm:         34455518 ns
+prelu:        14263448 ns
+-----------------------------
+Total:       194667150 ns
+
+Running: Our Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        60341 ns
+img2row:    1729295135 ns
+gemm:         34206415 ns
+prelu:        16486463 ns
+-----------------------------
+Total:      1780048354 ns
+
+Running: Our Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        55973 ns
+img2row:     406720460 ns
+gemm:         34489585 ns
+prelu:        15834647 ns
+-----------------------------
+Total:       457100665 ns
+
+Running: Our Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        56072 ns
+img2row:     212216719 ns
+gemm:         34639348 ns
+prelu:        16341905 ns
+-----------------------------
+Total:       263254044 ns
+
+Input size = 750
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:    239094884 ns
+img2row:      34823934 ns
+gemm:         73920359 ns
+prelu:        30592451 ns
+-----------------------------
+Total:       378431628 ns
+
+Running: Our Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        56634 ns
+img2row:    2919351308 ns
+gemm:         73816270 ns
+prelu:        35347407 ns
+-----------------------------
+Total:      3028571619 ns
+
+Running: Our Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        57054 ns
+img2row:     330997038 ns
+gemm:         75170334 ns
+prelu:        34510185 ns
+-----------------------------
+Total:       440734611 ns
+
+Running: Our Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        55996 ns
+img2row:     173747962 ns
+gemm:         74094605 ns
+prelu:        35038452 ns
+-----------------------------
+Total:       282937015 ns
+
+Input size = 1024
+
+Running: Baseline
+Runs per experiment: 5 (warmup)
+quantize:    539148052 ns
+img2row:      64666068 ns
+gemm:        139024356 ns
+prelu:        57070241 ns
+-----------------------------
+Total:       799908717 ns
+
+Running: Our Fusing 1
+Runs per experiment: 5 (warmup)
+quantize:        56802 ns
+img2row:    6894241813 ns
+gemm:        139235003 ns
+prelu:        66023745 ns
+-----------------------------
+Total:      7099557363 ns
+
+Running: Our Fusing 2
+Runs per experiment: 5 (warmup)
+quantize:        56350 ns
+img2row:    1670801384 ns
+gemm:        140931088 ns
+prelu:        63416859 ns
+-----------------------------
+Total:      1875205681 ns
+
+Running: Our Fusing 3
+Runs per experiment: 5 (warmup)
+quantize:        56180 ns
+img2row:     864809394 ns
+gemm:        142122151 ns
+prelu:        65454343 ns
+-----------------------------
+Total:      1072442068 ns
+
+[----- Data Summary -----]
+inputs: [16, 28, 56, 112, 256, 386, 512, 750, 1024]
+
+Baseline:
+quantize: [144430, 335944, 1226223, 4794783, 32610556, 58653508, 129623794, 239094884, 539148052]
+img2row: [7093, 21374, 104133, 358062, 1950090, 4869397, 16324390, 34823934, 64666068]
+gemm: [33044, 100247, 396039, 1589119, 8463613, 19426708, 34455518, 73920359, 139024356]
+prelu: [14720, 44332, 171101, 674407, 3587598, 8094318, 14263448, 30592451, 57070241]
+total: [199287, 501897, 1897496, 7416371, 46611857, 91043931, 194667150, 378431628, 799908717]
+
+Our Fusing 1:
+quantize: [52896, 53183, 53136, 54083, 54696, 55679, 60341, 56634, 56802]
+img2row: [948649, 3383353, 15211306, 61573638, 405165032, 748308608, 1729295135, 2919351308, 6894241813]
+gemm: [33337, 101524, 399550, 1600030, 8538079, 19454089, 34206415, 73816270, 139235003]
+prelu: [17591, 51174, 197291, 780032, 4129630, 9359453, 16486463, 35347407, 66023745]
+total: [1052473, 3589234, 15861283, 64007783, 417887437, 777177829, 1780048354, 3028571619, 7099557363]
+
+Our Fusing 2:
+quantize: [49111, 50348, 50649, 51704, 52885, 54029, 55973, 57054, 56350]
+img2row: [190175, 299761, 1394128, 9146101, 97882308, 74116007, 406720460, 330997038, 1670801384]
+gemm: [32632, 98976, 395658, 1590920, 8525504, 19557593, 34489585, 75170334, 140931088]
+prelu: [15183, 48501, 190888, 751994, 3968759, 9004801, 15834647, 34510185, 63416859]
+total: [287101, 497586, 2031323, 11540719, 110429456, 102732430, 457100665, 440734611, 1875205681]
+
+Our Fusing 3:
+quantize: [47765, 49853, 49711, 50397, 52921, 53921, 56072, 55996, 56180]
+img2row: [91366, 136716, 613113, 4318687, 49058998, 37339312, 212216719, 173747962, 864809394]
+gemm: [32725, 99672, 400272, 1595636, 8543652, 19635937, 34639348, 74094605, 142122151]
+prelu: [16389, 50422, 195850, 773406, 4085220, 9261462, 16341905, 35038452, 65454343]
+total: [188245, 336663, 1258946, 6738126, 61740791, 66290632, 263254044, 282937015, 1072442068]
+[------------------------]
